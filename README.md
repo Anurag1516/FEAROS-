@@ -30,3 +30,12 @@ When a threat exceeds the defined risk threshold, the system autonomously:
 Connects to the affected host via SSH.  
 Applies firewall rules to isolate the system.  
 Maintains administrative access for recovery purposes.  
+
+
+
+Component Technology / Model Purpose
+Log Management ELK Stack (Elasticsearch, Filebeat, Kibana) Data ingestion, storage, and visualization.
+Anomaly Detection Isolation Forest (Scikit-learn) Effective detection of unknown threats.
+Text Vectorization TF-IDF + Hashing Efficient log representation.
+Remote Access SSH (Paramiko) Automated host connection for response.
+Feature Scaling StandardScaler
